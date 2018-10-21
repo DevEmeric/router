@@ -1,15 +1,10 @@
-import React, { Component } from "react"
-import { NavLink } from "react-router-dom"
+import React from "react"
 
-class History extends Component {
-    render() {
-        return(
-            <div>
-                <NavLink to="/" ><p>Voici l'accueil</p></NavLink>
-                <NavLink to="/notre-histoire" activeStyle={{ color: 'red' }}><p>Notre histoire</p></NavLink>
-            </div>
-        )
-    }
-}
+
+const History = () => (
+    <div>
+      <h2>notre histoire</h2>
+    </div>
+  );
 
 export default History
